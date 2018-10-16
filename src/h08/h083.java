@@ -24,6 +24,8 @@ public class h083 extends Applet {
     public void paint(Graphics g){
     g.drawString("Bedrag inc. btw is:" + (BTW*1.21),40 , 70);
     }
+
+
     class KnopListener implements ActionListener{
         public void actionPerformed(ActionEvent e) {
             String s= Tekstvak.getText();
